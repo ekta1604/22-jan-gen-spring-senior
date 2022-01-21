@@ -8,6 +8,12 @@ public class UserBean {
 	String password;
 
 	
+	public UserBean() {
+		System.out.println("UserBean()");
+	}
+
+	
+	
 	public int getUserId() {
 		return userId;
 	}

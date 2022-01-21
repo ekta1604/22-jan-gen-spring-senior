@@ -37,8 +37,8 @@
 
 //ioc container --> 
 
-//1) BeanFactory(I) -- 1947 
-//2) ApplicationContext(I)  -- 2020 
+//1) BeanFactory(I) -- 1947  -- no lazy
+//2) ApplicationContext(I)  -- 2020  --  lazy true 
 
 //ApplicationContext is child of BeanFactory 
 //Interface 
