@@ -1,0 +1,66 @@
+
+//pom.xml  -- it contains all the information of your projects .	
+//			we will use this file to register our dependencies [ jar ] file 
+
+				
+//package.json 
+
+//spring core -- console 
+
+//spring web -- http 
+//spring boot -- http 
+
+//spring 
+
+//core
+//context
+//bean
+//el 
+
+
+
+
+//Signup.jsp ---> RegistrationServlet --> get bean dao 
+//servlet container --> server --> apache tomcat ===> web.xml | annoation 
+
+
+
+//spring container --> ioc container ->  spring.xml  ||  
+//500 -> 1 
+// single 
+//front --
+//reflection
+//factory 
+
+
+
+
+//ioc container --> 
+
+//1) BeanFactory(I) -- 1947 
+//2) ApplicationContext(I)  -- 2020 
+
+//ApplicationContext is child of BeanFactory 
+//Interface 
+
+//we need to put our spring.xml in class path 
+
+
+servlet , listener , filter 
+
+spring bean --> a class which memory management / life cycle  is manage by ioc conatiner. 
+
+
+xml --> can be validated using xsd file dtd file 
+
+
+	//FileSystemXmlApplicationContext
+		// WebXmlApplicationContext
+		// ClassPathXmlApplicationContext
+	
+
+
+
+
+
+

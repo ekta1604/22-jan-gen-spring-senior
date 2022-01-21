@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.dao.UserDao" id="userDao">
+	</bean>
+
+
+	<bean class="com.bean.UserBean" id="userBean">
+		<property name="userId" value="1"></property>
+		<property name="firstName" value="ram"></property>
+		<property name="email" value="ram@gmail.com"></property>
+		<property name="password" value="ram123"></property>
+	</bean>
+
+
+
+
+</beans>
