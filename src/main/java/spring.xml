@@ -7,7 +7,7 @@
 
 	<!-- scope="singleton" -->
 	<!-- <bean class="com.bean.UserBean" id="userBean" scope="prototype"> -->
-	<bean class="com.bean.UserBean" id="userBean" scope="singleton"  lazy-init="true">
+	<bean class="com.bean.UserBean" id="userBean" scope="singleton"  lazy-init="true"  init-method="myinit" destroy-method="mydestroy">
 
 		<property name="userId" value="1"></property>
 		<property name="firstName" value="ram"></property>

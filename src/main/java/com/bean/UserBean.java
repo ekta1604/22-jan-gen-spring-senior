@@ -2,18 +2,24 @@ package com.bean;
 
 public class UserBean {
 
-	int userId; 
+	int userId;
 	String firstName;
 	String email;
 	String password;
 
-	
 	public UserBean() {
 		System.out.println("UserBean()");
 	}
 
-	
-	
+	public void myinit() {
+		System.out.println("myinit()");
+	}
+
+	public void mydestroy() {
+		System.out.println("mydestroy()");
+
+	}
+
 	public int getUserId() {
 		return userId;
 	}

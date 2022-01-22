@@ -58,6 +58,26 @@ xml --> can be validated using xsd file dtd file
 		// WebXmlApplicationContext
 		// ClassPathXmlApplicationContext
 	
+	init-method 
+	destroy-method 
+-----------------------------------------------------------
+
+DI -> depen. injection 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
