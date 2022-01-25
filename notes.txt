@@ -65,7 +65,21 @@ xml --> can be validated using xsd file dtd file
 DI -> depen. injection 
 
 
+Concurrency --> ExecutorService [ 500 ]  
 
+Server --> signup [dao bean] ---> 500--> 8
+
+ 
+ATM --> [ 5000 customer ] 
+
+
+queue 
+
+
+node-->1 process --> 500 
+
+
+-----------------------------------------------------------
 
 
 

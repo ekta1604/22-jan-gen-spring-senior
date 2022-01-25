@@ -7,7 +7,8 @@
 
 	<!-- scope="singleton" -->
 	<!-- <bean class="com.bean.UserBean" id="userBean" scope="prototype"> -->
-	<bean class="com.bean.UserBean" id="userBean" scope="singleton"  lazy-init="true"  init-method="myinit" destroy-method="mydestroy">
+	<bean class="com.bean.UserBean" id="userBean" scope="singleton"
+		lazy-init="true" init-method="myinit" destroy-method="mydestroy">
 
 		<property name="userId" value="1"></property>
 		<property name="firstName" value="ram"></property>
@@ -16,4 +17,18 @@
 	</bean>
 
 
+	<bean class="com.bean.AddressBean" id="address">
+		<property name="city" value="ahmedabad"></property>
+	</bean>
+
+	<bean class="com.bean.LibBean" id="lib">
+		<property name="stream" value="mca"></property>
+	</bean>
+	<bean class="com.bean.StudentBean" id="student">
+		<property name="name" value="ram"></property>
+		<property name="email" value="ram@gmail.com"></property>
+		<property name="password" value="ram123"></property>
+		<constructor-arg ref="address"></constructor-arg>
+		<property name="libBean" ref="lib"></property>
+	</bean>
 </beans>
